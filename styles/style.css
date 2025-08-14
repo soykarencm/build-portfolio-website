@@ -1,0 +1,72 @@
+:root {
+  --clr-dark: #070a13;
+  --clr-light: #f1f5f9;
+  --clr-slate400: #94a3b8;
+  --clr-slate600: #475569;
+  --clr-slate800: #1e293b;
+  --clr-rose: #e11d48;
+  --clr-indigo: #4f46e5;
+
+  /* rose rgb(225, 29, 72) */
+  /* indigo rgb(79, 70, 229) */
+
+  /* sizes */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-x1: 1.25rem;
+  --size-2x1: 1.5rem;
+  --size-3x1: 1.875rem;
+  --size-4x1: 2.25rem;
+  --size-5x1: 3rem;
+  --size-6x1: 3.75rem;
+  --size-7x1: 4.5rem;
+  --size-8x1: 6rem;
+  --size-9x1: 8rem;
+  --size-10x1: 10rem;
+}
+
+* {
+  margin: 0;
+  line-height: calc(1rem + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'General Sans', sans-serif;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+  /* Heredará el color de su padre */
+}
+
+a {
+  color: var(--clr-rose);
+}
+
+strong {
+  color: var(--clr-indigo);
+}
