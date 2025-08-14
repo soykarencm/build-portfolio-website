@@ -9,22 +9,21 @@
 }
 
 .hero__img {
-  /* display: inline; */
   border-radius: 50%;
   width: 6rem;
   height: 6rem;
 }
 
 .hero__subtitle {
-  color: var(--clr-slate400);
+  color: var(--clr-slate800);
   font-size: var(--size-base);
   line-height: 0.9;
 }
 
 .hero__title {
-  color: var(--clr-slate800);
+  color: var(--clr-slate400);
   text-transform: uppercase;
-  font-size: var(--size-4x1);
+  font-size: var(--size-4xl);
   letter-spacing: -0.05em;
   line-height: 0.9;
 }
@@ -56,7 +55,7 @@
   }
 
   .hero__title {
-    font-size: var(--size-5x1);
+    font-size: var(--size-5xl);
   }
 
   .hero__description {
@@ -82,11 +81,11 @@
   }
 
   .hero__subtitle {
-    font-size: var(--size-2x1);
+    font-size: var(--size-2xl);
   }
 
   .hero__title {
-    font-size: var(--size-7x1);
+    font-size: var(--size-7xl);
   }
 
   .hero__description {
@@ -110,11 +109,11 @@
   }
 
   .hero__subtitle {
-    font-size: var(--size-4x1);
+    font-size: var(--size-4xl);
   }
 
   .hero__title {
-    font-size: var(--size-9x1);
+    font-size: var(--size-9xl);
   }
 
   .hero__description {

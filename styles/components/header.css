@@ -4,6 +4,8 @@
   align-items: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  position: relative;
+  z-index: 9999;
 }
 
 .header__menu {
@@ -12,8 +14,8 @@
 
 .header__bars {
   color: var(--clr-light);
-  width: var(--size-2x1);
-  height: var(--size-2x1);
+  width: var(--size-2xl);
+  height: var(--size-2xl);
   display: block;
 }
 
@@ -30,7 +32,7 @@
     align-items: center;
     list-style: none;
     padding: 0;
-    gap: 2rem;
+    gap: 2em;
   }
 
   .header__link {
@@ -47,7 +49,7 @@
   }
 
   .header__line {
-    border: 1px solid var(--clr-slate600);
+    border: 1px solid var(--clr-slate800);
     padding-top: 1.5em;
   }
 
@@ -74,7 +76,7 @@
   }
 
   .header__sun {
-    /* width: var(--size-xl); */
+    width: var(--size-xl);
     height: var(--size-xl);
   }
 
